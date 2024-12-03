@@ -1,0 +1,80 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: #5992b9;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+  }
+  
+  .contact-info,
+  .contact-form {
+    width: 45%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Information */
+  .contact-info p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .contact-info p strong {
+    display: block;
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Form */
+  .contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1.1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #5992b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #6783b6;
+  }
+  
